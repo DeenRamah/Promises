@@ -1,2 +1,3 @@
 # Promises
 Promise function for handling asynchronous operatons
+javascript promises in operations Promiese-Good way of handling asynchronous operations , it is used to find out if the asynchronous operations is successfully completed or not A promise may have one of three states ; 1.Pending=process is not completed 2.Fulfilled-Operation is successfull 3.Rejected-an error occures #Create A Promise To craete a promise object we use the Promise() constructor{( let promise = new Promise(function(resolve, reject)) //do something)} if the promise returns successfully ,the resolve() function is called and if an error occurs, the reject() function is called
